@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --cor-primaria:#000000;
+    --cor-secundaria: #936EFE;
+    --cor-terciaria: #FEFDF9;
+    --cor-quaternaria: #FFFFFF;
+
+    --fonte-primaria:'Rubik', sans-serif; 
+}
+body{
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+#logo img{
+    width: 7rem;
+    padding: 3rem;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    width: 1263px;
+    height: 98px;
+}
+.cabecalho_serviços li{
+    margin: 0 1rem;
+}
+.cabecalho_serviços ul{
+    list-style: none;
+    display: flex;
+}
+.cabecalho_serviços a{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-quaternaria);
+    text-decoration: none;
+    font-size: 11px;
+}
+.cabecalho_log li{
+    margin: 0 1rem;
+}
+.cabecalho_log ul{
+    list-style: none;
+    display: flex;
+    padding: 3rem;
+
+}
+.cabecalho_link_log {
+    font-family: var(--fonte-primaria);
+    color: var(--cor-quaternaria);
+    text-decoration: none;
+    font-size: 11px;
+}
+.cabecalho_link_signup{
+    margin: 5px;
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 15px  33px;
+    font-size: 13px;
+    border-radius: 100px;
+    box-sizing: border-box;    
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+}
+.dashboard{
+    justify-content: space-around;
+    display: flex;
+    margin: 4.5rem;
+    align-content: space-around;
+ }
+.dashboard_conteudo_titulo{
+    font-family: var(--fonte-primaria);
+    font-size: 50px;
+    color: var(--cor-primaria);
+    font-weight: 500;
+    height: 9.5rem;
+}
+.dashboard_conteudo_texto{
+    font-family: var(--fonte-primaria);
+    font-size: 15px;
+    color: var(--cor-primaria);
+    height: 4.5rem;
+}
+.dashboard_imagem img{
+    width: 535px;
+    height: 595px;
+    padding-left: 3.5rem;
+}
+.dashboard_conteudo img{
+    width: 123px;
+    height: 32px;
+}
+.dashboard_conteudo_inserir{
+    background-color: #F5F5F5;
+    color: #717171;
+    padding: 15px  60px;
+    font-size: 13px;
+    border-radius: 100px;
+    box-sizing: border-box;    
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    border-style: none;
+}
+.dashboard_conteudo_botao{
+    margin: 5px;
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 15px  33px;
+    font-size: 13px;
+    border-radius: 100px;
+    box-sizing: border-box;    
+    text-decoration: none;
+    font-family: var(--fonte-primaria);
+    border-style: none;
+}
+.dashboard_dados{
+}
+
+
